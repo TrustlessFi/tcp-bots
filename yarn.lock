@@ -1184,14 +1184,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@trustlessfi/protocols@npm:^0.2.1":
-  version: 0.2.1
-  resolution: "@trustlessfi/protocols@npm:0.2.1"
+"@trustlessfi/addresses@npm:^0.7.0":
+  version: 0.7.0
+  resolution: "@trustlessfi/addresses@npm:0.7.0"
+  dependencies:
+    "@types/node": ^16.11.11
+    typescript: ^4.5.3
+  checksum: bdf1468a4fcc716cf9c12f6501050383e0d891b9342232fcde5cb766429f45a64af89b3a59c67c26461c978b98e997e6d15059304c8dac69f0dade13884f2871
+  languageName: node
+  linkType: hard
+
+"@trustlessfi/protocols@npm:^0.2.6":
+  version: 0.2.6
+  resolution: "@trustlessfi/protocols@npm:0.2.6"
   dependencies:
     "@nomiclabs/hardhat-ethers": ^2.0.3
     "@nomiclabs/hardhat-waffle": ^2.0.1
     "@trustlessfi/addresses": ^0.6.2
-    "@trustlessfi/typechain": ^0.7.1
+    "@trustlessfi/typechain": ^0.8.2
     "@typechain/ethers-v5": ^8.0.5
     chai: ^4.3.4
     ethereum-waffle: ^3.4.0
@@ -1199,18 +1209,18 @@ __metadata:
     hardhat: 2.7.1
     ts-node: ^10.4.0
     typescript: ^4.5.3
-  checksum: 9195a219a20322a2ada753fb5b7baffeb3e8cd9397d8a4c16253e2ba830d52b26e7a19504b4d7190cca3d7b5cfea9544f32ac0c2ca2e53e5093f25fc1515683d
+  checksum: 9f42a5716f85a6881e5448fe074c3cfa63c6dc451b3cf79b5e40e45472eec49150146e0106e7e984676f68e01067171ae3525c6d256a01d8f862aec8998e6f52
   languageName: node
   linkType: hard
 
-"@trustlessfi/typechain@npm:^0.7.1":
-  version: 0.7.1
-  resolution: "@trustlessfi/typechain@npm:0.7.1"
+"@trustlessfi/typechain@npm:^0.8.2":
+  version: 0.8.2
+  resolution: "@trustlessfi/typechain@npm:0.8.2"
   dependencies:
     "@ethersproject/abi": ^5.5.0
     "@ethersproject/providers": ^5.5.0
     ethers: ^5.5.1
-  checksum: 9c80ef09f5b18d7c5ea1b5816992a610926671a08d47fab1541082594387a53b8ce2b21a870def575dccdc60e6b1f85e0d69e7b755857eb3f37a61a8f8cb5a36
+  checksum: 9da6f9d56b8875bfca2d7719ab609eb4a8e53681331ac6b1a0ebb496c252a76fee67d4bd48d54939e2a298613fc11f5171c0df51263815c1dae21dd7cdca4e66
   languageName: node
   linkType: hard
 
@@ -3298,9 +3308,9 @@ __metadata:
   resolution: "coin-protocol-bots@workspace:."
   dependencies:
     "@nomiclabs/hardhat-ethers": ^2.0.3
-    "@trustlessfi/addresses": ^0.6.2
-    "@trustlessfi/protocols": ^0.2.1
-    "@trustlessfi/typechain": ^0.7.1
+    "@trustlessfi/addresses": ^0.7.0
+    "@trustlessfi/protocols": ^0.2.6
+    "@trustlessfi/typechain": ^0.8.2
     "@typechain/hardhat": ^3.0.0
     "@types/dotenv": ^8.2.0
     "@types/node": ^16.11.14
