@@ -1,0 +1,28 @@
+{
+  "name": "coin-protocol-bots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start_bot": "npx hardhat run --no-compile --network dockerBot bots/utils/BotLauncher.ts",
+    "test_bot": "npx hardhat run --no-compile --network localhost bots/utils/BotLauncher.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "@trustlessfi/addresses": "^0.6.2",
+    "@trustlessfi/protocols": "^0.2.1",
+    "@trustlessfi/typechain": "^0.7.1",
+    "@typechain/hardhat": "^3.0.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^16.11.14",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.5.1",
+    "hardhat": "^2.6.8",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}

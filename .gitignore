@@ -1,0 +1,17 @@
+node_modules/
+dist/
+cache/
+
+*.swp
+.DS_Store
+env.list
+yarn-error.log
+
+# yarn 3
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
