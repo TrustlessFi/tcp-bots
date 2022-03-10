@@ -14,8 +14,8 @@
   "dependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.3",
     "@trustlessfi/addresses": "^0.7.0",
-    "@trustlessfi/protocols": "^0.2.6",
-    "@trustlessfi/typechain": "^0.8.2",
+    "@trustlessfi/protocols": "^0.2.7",
+    "@trustlessfi/typechain": "^0.8.3",
     "@typechain/hardhat": "^3.0.0",
     "@types/dotenv": "^8.2.0",
     "@types/node": "^16.11.14",

@@ -1194,14 +1194,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@trustlessfi/protocols@npm:^0.2.6":
-  version: 0.2.6
-  resolution: "@trustlessfi/protocols@npm:0.2.6"
+"@trustlessfi/protocols@npm:^0.2.7":
+  version: 0.2.7
+  resolution: "@trustlessfi/protocols@npm:0.2.7"
   dependencies:
     "@nomiclabs/hardhat-ethers": ^2.0.3
     "@nomiclabs/hardhat-waffle": ^2.0.1
     "@trustlessfi/addresses": ^0.6.2
-    "@trustlessfi/typechain": ^0.8.2
+    "@trustlessfi/typechain": ^0.8.3
     "@typechain/ethers-v5": ^8.0.5
     chai: ^4.3.4
     ethereum-waffle: ^3.4.0
@@ -1209,18 +1209,18 @@ __metadata:
     hardhat: 2.7.1
     ts-node: ^10.4.0
     typescript: ^4.5.3
-  checksum: 9f42a5716f85a6881e5448fe074c3cfa63c6dc451b3cf79b5e40e45472eec49150146e0106e7e984676f68e01067171ae3525c6d256a01d8f862aec8998e6f52
+  checksum: c1a7eaeca38bb0d0609752fd6ca7c39a5b090080e3d47ef0398781679f104ca36f7e1ee4f65e126cf2891fed06018b19fd4220f0d87c30126f62b16cd6244ec3
   languageName: node
   linkType: hard
 
-"@trustlessfi/typechain@npm:^0.8.2":
-  version: 0.8.2
-  resolution: "@trustlessfi/typechain@npm:0.8.2"
+"@trustlessfi/typechain@npm:^0.8.3":
+  version: 0.8.3
+  resolution: "@trustlessfi/typechain@npm:0.8.3"
   dependencies:
     "@ethersproject/abi": ^5.5.0
     "@ethersproject/providers": ^5.5.0
     ethers: ^5.5.1
-  checksum: 9da6f9d56b8875bfca2d7719ab609eb4a8e53681331ac6b1a0ebb496c252a76fee67d4bd48d54939e2a298613fc11f5171c0df51263815c1dae21dd7cdca4e66
+  checksum: fb007557b18da56b94ec3615c66bc807092f60075dda26e2b4d4f53eb48137d8f1acd277449b04469b4e86c96b00bf86273d5c2d3e7d958c3ab44ae79a2a4bdf
   languageName: node
   linkType: hard
 
@@ -3309,8 +3309,8 @@ __metadata:
   dependencies:
     "@nomiclabs/hardhat-ethers": ^2.0.3
     "@trustlessfi/addresses": ^0.7.0
-    "@trustlessfi/protocols": ^0.2.6
-    "@trustlessfi/typechain": ^0.8.2
+    "@trustlessfi/protocols": ^0.2.7
+    "@trustlessfi/typechain": ^0.8.3
     "@typechain/hardhat": ^3.0.0
     "@types/dotenv": ^8.2.0
     "@types/node": ^16.11.14
