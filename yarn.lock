@@ -1194,14 +1194,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@trustlessfi/protocols@npm:^0.2.13":
-  version: 0.2.13
-  resolution: "@trustlessfi/protocols@npm:0.2.13"
+"@trustlessfi/protocols@npm:^0.2.14":
+  version: 0.2.14
+  resolution: "@trustlessfi/protocols@npm:0.2.14"
   dependencies:
     "@nomiclabs/hardhat-ethers": ^2.0.3
     "@nomiclabs/hardhat-waffle": ^2.0.1
     "@trustlessfi/addresses": ^0.6.2
-    "@trustlessfi/typechain": ^0.8.9
+    "@trustlessfi/typechain": ^0.8.10
     "@typechain/ethers-v5": ^8.0.5
     chai: ^4.3.4
     ethereum-waffle: ^3.4.0
@@ -1209,18 +1209,18 @@ __metadata:
     hardhat: 2.7.1
     ts-node: ^10.4.0
     typescript: ^4.5.3
-  checksum: 80591c76a40d46ee3a90556176b284490348abbac4c962c6db059aa0000216286f683f2aa9eb7b46cb98a8f77899af7142ad2cf2668704875b6a558765bfb24f
+  checksum: 986cc6dd5d0e951ba41ea65df6717b9586dea6ca569d111c3e8629ed650947a5feb192c6a537c54ff3e7dcd98ea75dab8f153cc4e12d76a37209ca52e75ff87c
   languageName: node
   linkType: hard
 
-"@trustlessfi/typechain@npm:^0.8.9":
-  version: 0.8.9
-  resolution: "@trustlessfi/typechain@npm:0.8.9"
+"@trustlessfi/typechain@npm:^0.8.10":
+  version: 0.8.10
+  resolution: "@trustlessfi/typechain@npm:0.8.10"
   dependencies:
     "@ethersproject/abi": ^5.5.0
     "@ethersproject/providers": ^5.5.0
     ethers: ^5.5.1
-  checksum: 49c5c434bc6bb6499695f19e55cebb757fd8c4a3d6a7a8505199458622a6e12bdae69692bce9874d5a6b5f6187904df700aa51b4d868b319976c19ee524d1b43
+  checksum: 3d435231de9d0af7f18ebf48d141feef7fe05b4e034b7d2487a2c3bb3efbe5b1fcdb7066256b69509a4a5b1d07654aabb7612e8df86bf8766287ce42ed787c73
   languageName: node
   linkType: hard
 
@@ -3309,8 +3309,8 @@ __metadata:
   dependencies:
     "@nomiclabs/hardhat-ethers": ^2.0.3
     "@trustlessfi/addresses": ^0.7.0
-    "@trustlessfi/protocols": ^0.2.13
-    "@trustlessfi/typechain": ^0.8.9
+    "@trustlessfi/protocols": ^0.2.14
+    "@trustlessfi/typechain": ^0.8.10
     "@typechain/hardhat": ^3.0.0
     "@types/dotenv": ^8.2.0
     "@types/node": ^16.11.14
