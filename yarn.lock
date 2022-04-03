@@ -1515,9 +1515,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@trustlessfi/protocols@npm:^0.2.18":
-  version: 0.2.18
-  resolution: "@trustlessfi/protocols@npm:0.2.18"
+"@trustlessfi/protocols@npm:^0.2.19":
+  version: 0.2.19
+  resolution: "@trustlessfi/protocols@npm:0.2.19"
   dependencies:
     "@nomiclabs/hardhat-ethers": ^2.0.5
     "@nomiclabs/hardhat-waffle": ^2.0.3
@@ -1530,7 +1530,7 @@ __metadata:
     hardhat: 2.9.2
     ts-node: ^10.7.0
     typescript: ^4.6.3
-  checksum: be9767cf4b7e0fa0283cb6abd919c354c9d568acaca4962190b28524f8dc6f160f6f90fe3032388c03e786cf6de8c9dab36accee1b726de9dbdaf8b44c08a034
+  checksum: 958731faa40fbba2d2a41ab04ae10fd5bb8d981c5e02cccbbe1f8466a77d2a2953be6c5b675070ba19292500a91d0371c0e774c24d33742b2273ea12cfb5a42c
   languageName: node
   linkType: hard
 
@@ -3638,7 +3638,7 @@ __metadata:
   dependencies:
     "@nomiclabs/hardhat-ethers": ^2.0.5
     "@trustlessfi/addresses": ^0.10.5
-    "@trustlessfi/protocols": ^0.2.18
+    "@trustlessfi/protocols": ^0.2.19
     "@trustlessfi/typechain": ^0.8.13
     "@typechain/hardhat": ^6.0.0
     "@types/dotenv": ^8.2.0
