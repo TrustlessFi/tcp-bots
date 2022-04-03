@@ -864,7 +864,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ethersproject/providers@npm:5.6.2":
+"@ethersproject/providers@npm:5.6.2, @ethersproject/providers@npm:^5.6.2":
   version: 5.6.2
   resolution: "@ethersproject/providers@npm:5.6.2"
   dependencies:
@@ -1515,9 +1515,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@trustlessfi/protocols@npm:^0.2.20":
-  version: 0.2.20
-  resolution: "@trustlessfi/protocols@npm:0.2.20"
+"@trustlessfi/protocols@npm:^0.2.21":
+  version: 0.2.21
+  resolution: "@trustlessfi/protocols@npm:0.2.21"
   dependencies:
     "@nomiclabs/hardhat-ethers": ^2.0.5
     "@nomiclabs/hardhat-waffle": ^2.0.3
@@ -1530,7 +1530,7 @@ __metadata:
     hardhat: 2.9.2
     ts-node: ^10.7.0
     typescript: ^4.6.3
-  checksum: 25e1a89686f456ca5dcf143ceaad7d8f7382b6dff874a14ac3f10c6bc63a0793659a10d8f76a3217ea0e938620996f2a527b4fd1f9705dba8147de344a60039b
+  checksum: ed5c067b1a8d16028ea84449e4bab02b7c4577b7c66b1e9c49a897a0d03cfd51aed894e7daa53cc548322c93a86593607c3fc953af92f80de161ac934aabab30
   languageName: node
   linkType: hard
 
@@ -1545,14 +1545,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@trustlessfi/typechain@npm:^0.8.16":
-  version: 0.8.16
-  resolution: "@trustlessfi/typechain@npm:0.8.16"
+"@trustlessfi/typechain@npm:^0.8.18":
+  version: 0.8.18
+  resolution: "@trustlessfi/typechain@npm:0.8.18"
   dependencies:
-    "@ethersproject/abi": ^5.5.0
-    "@ethersproject/providers": ^5.5.0
-    ethers: ^5.5.1
-  checksum: d96b10f28d009f749db694295bdf63952b86ee09132d13319bf4ae49cf2dc7d28707d995ecb6397696f06058f87025b04b7af6472b8ddf342d25089240bd9e5c
+    "@ethersproject/abi": ^5.6.0
+    "@ethersproject/providers": ^5.6.2
+    ethers: ^5.6.2
+  checksum: d06bc2da08ccd3dc5c29a92fbd429ce87a92af9b098d8a496ebe9c48105d99a715b31b1bcff4baef65999cd73336846d8b02dc33c08b4ac187e611e97614aba8
   languageName: node
   linkType: hard
 
@@ -3649,8 +3649,8 @@ __metadata:
   dependencies:
     "@nomiclabs/hardhat-ethers": ^2.0.5
     "@trustlessfi/addresses": ^0.10.5
-    "@trustlessfi/protocols": ^0.2.20
-    "@trustlessfi/typechain": ^0.8.16
+    "@trustlessfi/protocols": ^0.2.21
+    "@trustlessfi/typechain": ^0.8.18
     "@typechain/hardhat": ^6.0.0
     "@types/dotenv": ^8.2.0
     "@types/node": ^17.0.23
