@@ -1545,6 +1545,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@trustlessfi/typechain@npm:^0.8.16":
+  version: 0.8.16
+  resolution: "@trustlessfi/typechain@npm:0.8.16"
+  dependencies:
+    "@ethersproject/abi": ^5.5.0
+    "@ethersproject/providers": ^5.5.0
+    ethers: ^5.5.1
+  checksum: d96b10f28d009f749db694295bdf63952b86ee09132d13319bf4ae49cf2dc7d28707d995ecb6397696f06058f87025b04b7af6472b8ddf342d25089240bd9e5c
+  languageName: node
+  linkType: hard
+
 "@tsconfig/node10@npm:^1.0.7":
   version: 1.0.8
   resolution: "@tsconfig/node10@npm:1.0.8"
@@ -3639,7 +3650,7 @@ __metadata:
     "@nomiclabs/hardhat-ethers": ^2.0.5
     "@trustlessfi/addresses": ^0.10.5
     "@trustlessfi/protocols": ^0.2.20
-    "@trustlessfi/typechain": ^0.8.15
+    "@trustlessfi/typechain": ^0.8.16
     "@typechain/hardhat": ^6.0.0
     "@types/dotenv": ^8.2.0
     "@types/node": ^17.0.23
