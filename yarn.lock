@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 5
+  version: 6
   cacheKey: 8
 
 "@cspotcode/source-map-consumer@npm:0.8.0":
@@ -1194,9 +1194,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@trustlessfi/protocols@npm:^0.2.14":
-  version: 0.2.14
-  resolution: "@trustlessfi/protocols@npm:0.2.14"
+"@trustlessfi/protocols@npm:^0.2.15":
+  version: 0.2.15
+  resolution: "@trustlessfi/protocols@npm:0.2.15"
   dependencies:
     "@nomiclabs/hardhat-ethers": ^2.0.3
     "@nomiclabs/hardhat-waffle": ^2.0.1
@@ -1209,7 +1209,7 @@ __metadata:
     hardhat: 2.7.1
     ts-node: ^10.4.0
     typescript: ^4.5.3
-  checksum: 986cc6dd5d0e951ba41ea65df6717b9586dea6ca569d111c3e8629ed650947a5feb192c6a537c54ff3e7dcd98ea75dab8f153cc4e12d76a37209ca52e75ff87c
+  checksum: e976ed37a941e4eca8476753c0b86f347e6f8764b4a8aeb84c9277ed94e1edcd7ef326bb079c83846dce48f1df5f64137d5a75e36bb14335c5bc42e1314541f3
   languageName: node
   linkType: hard
 
@@ -1221,6 +1221,17 @@ __metadata:
     "@ethersproject/providers": ^5.5.0
     ethers: ^5.5.1
   checksum: 3d435231de9d0af7f18ebf48d141feef7fe05b4e034b7d2487a2c3bb3efbe5b1fcdb7066256b69509a4a5b1d07654aabb7612e8df86bf8766287ce42ed787c73
+  languageName: node
+  linkType: hard
+
+"@trustlessfi/typechain@npm:^0.8.11":
+  version: 0.8.11
+  resolution: "@trustlessfi/typechain@npm:0.8.11"
+  dependencies:
+    "@ethersproject/abi": ^5.5.0
+    "@ethersproject/providers": ^5.5.0
+    ethers: ^5.5.1
+  checksum: 3db57497fbf59682265b290ab5f82bb03eeb2cfbca94cc9af75c042606bbca582913529182ed978ea8cdca8183064d8a7eef8ddf896ddd50fd8b4877712892a3
   languageName: node
   linkType: hard
 
@@ -3309,8 +3320,8 @@ __metadata:
   dependencies:
     "@nomiclabs/hardhat-ethers": ^2.0.3
     "@trustlessfi/addresses": ^0.7.0
-    "@trustlessfi/protocols": ^0.2.14
-    "@trustlessfi/typechain": ^0.8.10
+    "@trustlessfi/protocols": ^0.2.15
+    "@trustlessfi/typechain": ^0.8.11
     "@typechain/hardhat": ^3.0.0
     "@types/dotenv": ^8.2.0
     "@types/node": ^16.11.14
@@ -10488,31 +10499,31 @@ typescript@^4.4.4:
 
 "typescript@patch:typescript@^4.3.4#~builtin<compat/typescript>":
   version: 4.4.2
-  resolution: "typescript@patch:typescript@npm%3A4.4.2#~builtin<compat/typescript>::version=4.4.2&hash=493e53"
+  resolution: "typescript@patch:typescript@npm%3A4.4.2#~builtin<compat/typescript>::version=4.4.2&hash=bda367"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 1f30617046271a94d6821fe9da9c4705111e0a2f5479269c82f65aa76b2421ff90def8838dd35b1aa464d015248b06c89ff867bd282f4822b5ee18b7f92f95ee
+  checksum: 4e64d212c1b70ed178b0894c23b4c78a5bf2491d08707098b61f24e54331c47c3c166de210551e7edf26fc0bbdfd5b1548d3d15ed3f738880e4f01c6b6a8b63a
   languageName: node
   linkType: hard
 
 "typescript@patch:typescript@^4.4.4#~builtin<compat/typescript>":
   version: 4.4.4
-  resolution: "typescript@patch:typescript@npm%3A4.4.4#~builtin<compat/typescript>::version=4.4.4&hash=493e53"
+  resolution: "typescript@patch:typescript@npm%3A4.4.4#~builtin<compat/typescript>::version=4.4.4&hash=bda367"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: bd629ad0da4a15d79aaad56baf3ee7d96f6a181760d430ae77f8c5325df7bffd9edee57544a3970e3651e8b796fe03a5838a7eb39c6d46cc3866c0b23d36a0dd
+  checksum: 3d1b04449662193544b81d055479d03b4c5dca95f1a82f8922596f089d894c9fefbe16639d1d9dfe26a7054419645530cef44001bc17aed1fe1eb3c237e9b3c7
   languageName: node
   linkType: hard
 
 "typescript@patch:typescript@^4.5.3#~builtin<compat/typescript>":
   version: 4.5.3
-  resolution: "typescript@patch:typescript@npm%3A4.5.3#~builtin<compat/typescript>::version=4.5.3&hash=493e53"
+  resolution: "typescript@patch:typescript@npm%3A4.5.3#~builtin<compat/typescript>::version=4.5.3&hash=bda367"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 3c3a664dfb66e7c45d3823cc1a4038dc506415041f39249ed3af1799a64b3065448549d9e9ba509c94335d1e2dfbe311a4b9e36574e87d248f9381d541cb8626
+  checksum: 331fbcce6dfcbb0be23b13d5c47ecb19cc9f5f0dddf5eef69970232f6762131cf03e0ff491d99816dfb4f8ee38b4e8e0bd78825b528cd07b2b2b754f40fc80ad
   languageName: node
   linkType: hard
 
