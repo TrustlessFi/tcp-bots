@@ -1515,14 +1515,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@trustlessfi/protocols@npm:^0.2.19":
-  version: 0.2.19
-  resolution: "@trustlessfi/protocols@npm:0.2.19"
+"@trustlessfi/protocols@npm:^0.2.20":
+  version: 0.2.20
+  resolution: "@trustlessfi/protocols@npm:0.2.20"
   dependencies:
     "@nomiclabs/hardhat-ethers": ^2.0.5
     "@nomiclabs/hardhat-waffle": ^2.0.3
     "@trustlessfi/addresses": ^0.10.5
-    "@trustlessfi/typechain": ^0.8.13
+    "@trustlessfi/typechain": ^0.8.15
     "@typechain/ethers-v5": ^10.0.0
     chai: ^4.3.6
     ethereum-waffle: ^3.4.4
@@ -1530,18 +1530,18 @@ __metadata:
     hardhat: 2.9.2
     ts-node: ^10.7.0
     typescript: ^4.6.3
-  checksum: 958731faa40fbba2d2a41ab04ae10fd5bb8d981c5e02cccbbe1f8466a77d2a2953be6c5b675070ba19292500a91d0371c0e774c24d33742b2273ea12cfb5a42c
+  checksum: 25e1a89686f456ca5dcf143ceaad7d8f7382b6dff874a14ac3f10c6bc63a0793659a10d8f76a3217ea0e938620996f2a527b4fd1f9705dba8147de344a60039b
   languageName: node
   linkType: hard
 
-"@trustlessfi/typechain@npm:^0.8.13":
-  version: 0.8.13
-  resolution: "@trustlessfi/typechain@npm:0.8.13"
+"@trustlessfi/typechain@npm:^0.8.15":
+  version: 0.8.15
+  resolution: "@trustlessfi/typechain@npm:0.8.15"
   dependencies:
     "@ethersproject/abi": ^5.5.0
     "@ethersproject/providers": ^5.5.0
     ethers: ^5.5.1
-  checksum: 031ba1748525bc9ca7c9a0b73fb79433eca4ad08733bf5508244a6b5df0936d3a9ca3ba11e62cae13b89fd977bbacda83fae199541e4e3b947e5bcc9f6aeb906
+  checksum: 01abc348aafcdc9f490df8eb22e4ef74ba7fc9ccfe47eff2e3325b421939c9560a3614c26791589c41113b78ff59e013b9c7a9af1b855f46bfa791c4982b3b64
   languageName: node
   linkType: hard
 
@@ -3638,8 +3638,8 @@ __metadata:
   dependencies:
     "@nomiclabs/hardhat-ethers": ^2.0.5
     "@trustlessfi/addresses": ^0.10.5
-    "@trustlessfi/protocols": ^0.2.19
-    "@trustlessfi/typechain": ^0.8.13
+    "@trustlessfi/protocols": ^0.2.20
+    "@trustlessfi/typechain": ^0.8.15
     "@typechain/hardhat": ^6.0.0
     "@types/dotenv": ^8.2.0
     "@types/node": ^17.0.23
